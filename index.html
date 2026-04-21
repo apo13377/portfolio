@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+</head>
+<body>
+
+<h1>My ePortfolio</h1>
+
+<h2>Full Stack</h2>
+
+<p>Full stack means working on both the front side and back side of a website.</p>
+
+<h3>Example</h3>
+
+<input id="name" placeholder="name">
+<button onclick="show()">OK</button>
+
+<p id="out"></p>
+
+<script>
+function show(){
+    document.getElementById("out").innerHTML =
+    "Hello " + document.getElementById("name").value;
+}
+</script>
+
+<p>You can type your name and click the button to see a message.</p>
+
+<br>
+
+<a href="html.html">HTML</a> |
+<a href="css.html">CSS</a> |
+<a href="bootstrap.html">Bootstrap</a> |
+<a href="javascript.html">JavaScript</a>
+
+</body>
+</html>
